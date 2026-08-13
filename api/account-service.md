@@ -27,6 +27,15 @@
 }
 ```
 
+- `accountId` (integer)
+- `accountNumber` (string)
+- `ownerName` (integer)
+- `balance` (long)
+- `status` (string) 
+  - `Active`
+  - `CLOSED`
+  - `FROZEN`
+
 ## `GET /api/accounts/{accountId}`
 
 계좌 상세 조회

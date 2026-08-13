@@ -29,6 +29,14 @@
 }
 ```
 
+- `transactionId` (integer)
+- `type` (string)
+- `fromAccountId` (integer)
+- `toAccountId` (integer)
+- `amount` (long)
+- `status` (string)
+- `createdAt` (string)
+
 ## `POST /api/transactions/withdraw`
 
 출금
