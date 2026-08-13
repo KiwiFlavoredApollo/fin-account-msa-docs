@@ -114,7 +114,7 @@
 
 ### Response Body
 
-```
+```json
 [
     {
         "transactionId": 100,
