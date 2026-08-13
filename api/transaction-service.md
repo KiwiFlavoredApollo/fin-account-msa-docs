@@ -25,7 +25,7 @@
     "toAccountId": 10,
     "amount": 50000,
     "status": "SUCCESS",
-    "cr`eatedAt": "2026-08-13T17:00:00"
+    "createdAt": "2026-08-13T17:00:00"
 }
 ```
 
