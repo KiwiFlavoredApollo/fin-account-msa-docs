@@ -120,7 +120,7 @@
 }
 ```
 
-### `GET /api/transactions?accountId={accountId}`
+## `GET /api/transactions?accountId={accountId}`
 
 계좌별 거래 내역
 
