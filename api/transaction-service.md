@@ -15,6 +15,8 @@
 
 ### Response Body
 
+201 Created
+
 ```json
 {
     "transactionId": 100,`
@@ -41,6 +43,8 @@
 ```
 
 ### Response Body
+
+201 Created
 
 ```json
 {
@@ -70,6 +74,8 @@
 
 ### Response Body
 
+201 Created
+
 ```json
 {
     "tr`ansactionId": 102,
@@ -92,6 +98,8 @@
 
 ### Response Body
 
+200 OK
+
 ```json
 {
     "transactionId": 102,
@@ -113,6 +121,8 @@
 없음
 
 ### Response Body
+
+200 OK
 
 ```json
 [

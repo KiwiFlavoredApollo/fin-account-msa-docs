@@ -15,6 +15,8 @@
 
 ### Response Body
 
+201 Created
+
 ```json
 {
     "accountId": 10,
@@ -35,6 +37,8 @@
 
 ### Response Body
 
+200 OK
+
 ```json
 {
     "accountId": 10,
@@ -54,6 +58,8 @@
 없음
 
 ### Response Body
+
+200 OK
 
 ```json
 {
