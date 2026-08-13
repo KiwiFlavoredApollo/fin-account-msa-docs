@@ -19,7 +19,7 @@
 
 ```json
 {
-    "transactionId": 100,`
+    "transactionId": 100,
     "type": "DEPOSIT",
     "fromAccountId": null,
     "toAccountId": 10,
@@ -78,13 +78,13 @@
 
 ```json
 {
-    "tr`ansactionId": 102,
+    "transactionId": 102,
     "type": "TRANSFER",
     "fromAccountId": 10,
     "toAccountId": 20,
     "amount": 30000,
     "status": "SUCCESS",
-    "cr`eatedAt": "2026-08-13T17:10:00"
+    "createdAt": "2026-08-13T17:10:00"
 }
 ```
 
