@@ -56,24 +56,4 @@
     "balance": 100000,
     "status": "ACTIVE"
 }
-```
-
-## `GET /api/accounts/{accountId}/balance`
-
-계좌 잔액 조회
-
-### Request Body
-
-없음
-
-### Response Body
-
-200 OK
-
-```json
-{
-    "accountId": 10,
-    "balance": 100000
-}
-```
 
