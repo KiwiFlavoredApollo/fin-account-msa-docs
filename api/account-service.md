@@ -8,7 +8,7 @@
 
 ```json
 {
-    "ownerName": 1,
+    "ownerName": "John Doe",
     "password": "1234"
 }
 ```
@@ -21,7 +21,7 @@
 {
     "accountId": 10,
     "accountNumber": "110123456789",
-    "ownerName": 1,
+    "ownerName": "John Doe",
     "balance": 0,
     "status": "ACTIVE"
 }
@@ -29,7 +29,7 @@
 
 - `accountId` (integer)
 - `accountNumber` (string)
-- `ownerName` (integer)
+- `ownerName` (string)
 - `balance` (long)
 - `status` (string) 
   - `Active`
@@ -52,28 +52,8 @@
 {
     "accountId": 10,
     "accountNumber": "110123456789",
-    "ownerName": 1,
+    "ownerName": "John Doe",
     "balance": 100000,
     "status": "ACTIVE"
 }
 ```
-
-## `GET /api/accounts/{accountId}/balance`
-
-계좌 잔액 조회
-
-### Request Body
-
-없음
-
-### Response Body
-
-200 OK
-
-```json
-{
-    "accountId": 10,
-    "balance": 100000
-}
-```
-
