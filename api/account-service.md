@@ -31,10 +31,12 @@
 - `accountNumber` (string)
 - `ownerName` (integer)
 - `balance` (long)
-- `status` (string) 
-  - `Active`
+- `status` (string)
+  - `ACTIVE`
   - `CLOSED`
   - `FROZEN`
+
+---
 
 ## `GET /api/accounts/{accountId}`
 
@@ -56,4 +58,42 @@
     "balance": 100000,
     "status": "ACTIVE"
 }
+```
 
+- `accountId` (integer)
+- `accountNumber` (string)
+- `ownerName` (integer)
+- `balance` (long)
+- `status` (string)
+  - `ACTIVE`
+  - `CLOSED`
+  - `FROZEN`
+
+---
+
+## `POST /api/auth/login`
+
+로그인
+
+### Request Body
+
+```json
+{
+    "accountNumber": "110123456789",
+    "password": "1234"
+}
+```
+
+### Response Body
+
+200 OK
+
+```json
+{
+    "accountId": 10,
+    "accessToken": "eyJ..."
+}
+```
+
+- `accountId` (integer)
+- `accessToken` (string)
