@@ -1,6 +1,6 @@
 # Account Service
 
-## `POST /api/accounts`
+## `POST /accounts`
 
 계좌 개설
 
@@ -38,7 +38,7 @@
 
 ---
 
-## `GET /api/accounts/{accountId}`
+## `GET /accounts/{accountId}`
 
 계좌 상세 조회
 
@@ -63,7 +63,7 @@
 
 ---
 
-## `POST /api/auth/login`
+## `POST /auth/login`
 
 로그인
 
