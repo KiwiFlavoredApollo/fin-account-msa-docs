@@ -2,7 +2,7 @@
 
 > Transaction Service가 발행하는 `TransactionEvent`(Avro, Kafka)를 소비하여 알림을 생성/저장한다. 아래 API는 저장된 알림의 조회/읽음 처리를 위한 REST 인터페이스.
 
-## `GET /api/notifications?userId={userId}`
+## `GET /notifications?userId={userId}`
 
 사용자별 알림 목록 조회
 
@@ -57,7 +57,7 @@
 - `isRead` (boolean)
 - `createdAt` (string)
 
-## `GET /api/notifications/{notificationId}`
+## `GET /notifications/{notificationId}`
 
 알림 상세 조회
 
@@ -84,7 +84,7 @@
 }
 ```
 
-## `PATCH /api/notifications/{notificationId}/read`
+## `PATCH /notifications/{notificationId}/read`
 
 알림 읽음 처리
 

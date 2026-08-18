@@ -1,6 +1,6 @@
 # Transaction Service
 
-## `POST /api/transactions/deposit`
+## `POST /transactions/deposit`
 
 입금
 
@@ -37,7 +37,7 @@
 - `status` (string)
 - `createdAt` (string)
 
-## `POST /api/transactions/withdraw`
+## `POST /transactions/withdraw`
 
 출금
 
@@ -66,7 +66,7 @@
 }
 ```
 
-## `POST /api/transactions/transfer`
+## `POST /transactions/transfer`
 
 이체
 
@@ -96,7 +96,7 @@
 }
 ```
 
-## `GET /api/transactions/{transactionId}`
+## `GET /transactions/{transactionId}`
 
 거래 상세 조회
 
@@ -120,7 +120,7 @@
 }
 ```
 
-## `GET /api/transactions?accountId={accountId}`
+## `GET /transactions?accountId={accountId}`
 
 계좌별 거래 내역
 
