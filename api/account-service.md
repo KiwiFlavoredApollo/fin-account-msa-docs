@@ -60,6 +60,31 @@
 }
 ```
 
+---
+
+## `PATCH /accounts/{accountId}`
+
+계좌 정보를 수정합니다. 현재 계좌 잔액만 변경할 수 있습니다.
+
+### Request Body
+
+```json
+{
+  "balance": 50000
+}
+```
+
+### Response Body
+
+```json
+{
+    "accountId": 10,
+    "accountNumber": "110123456789",
+    "ownerName": "John Doe",
+    "balance": 50000,
+    "status": "ACTIVE"
+}
+```
 
 ---
 
