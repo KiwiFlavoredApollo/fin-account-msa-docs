@@ -8,7 +8,7 @@
 
 ```json
 {
-    "ownerName": 1,
+    "ownerName": "John Doe",
     "password": "1234"
 }
 ```
@@ -21,7 +21,7 @@
 {
     "accountId": 10,
     "accountNumber": "110123456789",
-    "ownerName": 1,
+    "ownerName": "John Doe",
     "balance": 0,
     "status": "ACTIVE"
 }
@@ -29,7 +29,7 @@
 
 - `accountId` (integer)
 - `accountNumber` (string)
-- `ownerName` (integer)
+- `ownerName` (string)
 - `balance` (long)
 - `status` (string)
   - `ACTIVE`
@@ -54,20 +54,12 @@
 {
     "accountId": 10,
     "accountNumber": "110123456789",
-    "ownerName": 1,
+    "ownerName": "John Doe",
     "balance": 100000,
     "status": "ACTIVE"
 }
 ```
 
-- `accountId` (integer)
-- `accountNumber` (string)
-- `ownerName` (integer)
-- `balance` (long)
-- `status` (string)
-  - `ACTIVE`
-  - `CLOSED`
-  - `FROZEN`
 
 ---
 
